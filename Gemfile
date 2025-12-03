@@ -1,3 +1,12 @@
+# source 'https://rubygems.org'
+# ruby '3.3.8'
+
+# gem 'sinatra', '~> 4.0'
+# gem 'webrick'  # ต้องมีใน Ruby 3+
+
+# gem "rackup", "~> 2.2"
+# gem "puma", "~> 7.1"
+
 source 'https://rubygems.org'
 ruby  '3.3.8'
 

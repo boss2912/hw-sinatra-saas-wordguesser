@@ -1,10 +1,3 @@
-<h1>Sorry, you lose!</h1>
-
-<div class="alert alert-danger">
-   The word was:
-   <span class="strong"><%= @game.word %></span>
-</div>
-
-<%= erb :new %>
-
-
+<h1>You Lose!</h1>
+<p>The word was: <%= @game.word %></p>
+<a href="/new">Play Again</a>
